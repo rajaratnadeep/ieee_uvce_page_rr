@@ -1,0 +1,753 @@
+
+html {
+    position: relative;
+    min-height: 100%;
+  }
+body {
+    
+    background-color: #ddd;
+    
+    
+  }
+
+
+
+/*footer*/
+.footer1 {
+    position: absolute;
+    bottom: 0;
+    width: 100%;
+    height: 60px; /* Set the fixed height of the footer here */
+    background-color: darkgrey;
+
+    
+  }
+.footer2 {
+    background-color: darkgrey;  
+    padding: 10px; 
+}
+
+
+
+
+/*Navbar*/
+.navbar1 {
+    opacity: 0.9;
+    background-color: brown; /*rgb(230, 14, 14)*/
+    color: white;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}
+
+
+.navbar-nav a {
+    transition: 250ms;
+    color: white; 
+    font-family: Georgia, 'Times New Roman', Times, serif;  
+}
+
+.navbar1 a{
+    transition: 250ms;
+}
+.navbar1 .dropdown-menu a{
+    color: black;
+    font-weight: 300;
+    font-size: 20px;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}
+    
+
+        
+
+
+
+
+
+
+/*social icon */
+.sticky-container{
+    padding:0px;
+    margin:0px;
+    position:fixed;
+    right:-130px;
+    top:230px;
+    width:210px;
+    z-index: 1100;
+}
+.sticky li{
+    list-style-type:none;
+    background-color:#fff;
+    color:#efefef;
+    height:43px;
+    padding:0px;
+    margin:0px 0px 1px 0px;
+    -webkit-transition:all 0.25s ease-in-out;
+    -moz-transition:all 0.25s ease-in-out;
+    -o-transition:all 0.25s ease-in-out;
+    transition:all 0.25s ease-in-out;
+    cursor:pointer;
+}
+.sticky li:hover{
+    margin-left:-115px;
+}
+.sticky li img{
+    float:left;
+    margin:5px 4px;
+    margin-right:5px;
+}
+.sticky li p{
+    padding-top:5px;
+    margin:0px;
+    line-height:16px;
+    font-size:11px;
+}
+.sticky li p a{
+    text-decoration:none;
+    color:#2C3539;
+}
+.sticky li p a:hover{
+    text-decoration:underline;
+}
+
+/*sidebar start*/
+*{
+
+    font-family: sans-serif;
+   
+}
+
+.stickysidebar{
+    padding:0px;
+    margin:0px;
+    position:fixed;
+}
+
+#sidebar1{
+    position: fixed;
+    width: 200px;
+    height: 100%;
+    background: #151719;
+    left: -200px;
+    transition: all 500ms linear; 
+    
+    z-index: 9;
+    background: brown;
+    color: white;
+    
+}
+
+#sidebar1.active{
+    position: fixed;
+    left: 0px;
+    z-index: 9;
+    background: brown;
+    color: white;
+    opacity: 0.8;
+}
+
+#sidebar1 ul li{
+    color: rgba(230,230,230,0.9);
+    list-style: none;
+    padding: 15px 10px;
+    border-bottom: 1px solid rgba(100,100,100,0.3);
+    background: brown;
+    font-size: 20px;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+
+}
+
+#sidebar1 .toggle-btn{
+    position: absolute;
+    left: 230px;
+    top: 20px;
+    z-index: 9;
+    background: #151719;
+    
+    
+}
+
+#sidebar1 .toggle-btn:hover{
+    position: absolute;
+    left: 230px;
+    top: 20px;
+    background-color: steelblue;
+    backface-visibility: visible;
+    background: black;
+    z-index: 9;
+}
+
+#sidebar1 .toggle-btn span{
+    position: absolute;
+    display: block;
+    width: 40px;
+    height: 20px;
+    background:  brown;
+    margin: 5px 0px;
+    z-index: 9;
+}
+#sidebar1 a:hover {
+    color: white;
+    background: black;
+
+}
+#sidebar1.active:hover{
+    
+    background: black;
+    color: white;
+    opacity: 1;
+    
+}
+#sidebar1 ul li:hover{
+    background: black;
+    opacity: 1;
+
+}
+
+/*ieeelogo*/
+.ieeelogo{
+    position: absolute;
+    margin: 5% auto auto 42.5%;
+    width: 15%;
+    opacity: 1.5;
+    
+}
+
+/*carousel items*/
+.carousel-item {
+    z-index: -1;
+    height: 90vh;
+    min-height: 300px;
+    background: no-repeat center center scroll;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+  }
+
+.carousel-item p {
+    font-size: 25px;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-weight: 300;
+}
+  
+
+
+
+/*ieeeuvce start*/
+
+#idieeeuvce{
+    background-image: url("./images/impetus1.jpg");
+    background-repeat: no-repeat;
+    background-position: center center;
+    background-attachment: scroll;
+    background-size: cover;
+    padding-top: 25%;
+    padding-bottom: 10%;
+}
+
+.ieeeuvce p{
+    text-align: center;
+    font-size: 150px;
+    font-family: 'Times New Roman', Times, serif;
+    font-weight: bold;
+    line-height: 0.75;
+    padding-top: 0;
+    padding-bottom: 10px;
+    margin-top: 0px;
+    color: white;
+}
+
+
+
+
+
+/*about ieee*/
+.aboutieee{
+    text-align: justify;
+    font-size: 20px;
+    font-family: Garamond, 'Times New Roman', Times, serif;
+    line-height: 1;
+    padding: 8%;
+    margin-left: 0%;
+    margin-right: 0%;
+    
+    
+
+    background-image: url("./images/Untitled-1-01.jpg" );
+    background-blend-mode: hard-light;
+    
+    background-repeat: no-repeat;
+    background-position: center center;
+    background-attachment: scroll;
+    background-size: cover;
+    padding-top: 10%;
+    padding-bottom: 10%;
+    
+}
+
+.aboutieee h1{
+    text-align: center;
+    text-transform: uppercase;
+    font-size: 35px;
+    font-weight: bold;
+    font-family: Garamond, 'Times New Roman', Times, serif;
+    line-height: 1;
+    
+}
+
+p {
+    font-family: Garamond, 'Times New Roman', Times, serif;
+    
+}
+
+
+/*about uvce*/
+.aboutuvce{
+    text-align: justify;
+    font-size: 20px;
+    font-family: Garamond, 'Times New Roman', Times, serif;
+    line-height: 1;
+    padding: 5%;
+    
+    
+    background-image: url("./images/picovc.jpeg");
+    background-repeat: no-repeat;
+    background-position: center center;
+    background-attachment: scroll;
+    background-size: cover;
+    padding-top: 2%;
+    padding-bottom: 10%;
+}
+
+.aboutuvce h1{
+    text-align: center;
+    text-transform: uppercase;
+    font-size: 35px;
+    font-weight: bold;
+    font-family: Garamond, 'Times New Roman', Times, serif;
+    line-height: 1;
+    
+}
+
+p{
+    font-family: Garamond, 'Times New Roman', Times, serif;
+    
+}
+
+.aboutuvce .abtuvcebox1{
+    box-shadow: rgb(68, 64, 64);
+    
+    background: #fff;
+    padding: 2%;
+    margin-left: 60%;
+    margin-right: -3%;
+    margin-bottom: -8%;
+    margin-top: 20%;
+    
+}
+
+
+
+/*committeestart*/
+section{
+    padding: 0;
+    
+}
+.box2{
+    padding: 4% 50px;
+}
+
+#row1{
+    padding: 0px;
+}
+
+.imageBox{
+    position: relative;
+    margin: auto;
+    border-radius: 2px;
+    overflow: hidden;
+    max-width: 200px; 
+    display: block;  
+}
+
+.imageBox h3{
+    position: absolute;
+    margin: 0;
+    padding-right: 0;
+    top: -40px;
+    transform: translateY(-40%);
+ 
+    
+    width: 100%;
+    font-weight: bold;
+    color: #fff;
+    text-shadow: 0 2px 5px rgba(0,0,0,0.5);
+    transition: .5s;
+    
+       
+}
+
+.imageBox h4{
+    
+    font-size: 20px;
+    text-align: center;
+    font-family: Garamond, 'Times New Roman', Times, serif;
+       
+}
+
+.imageBox:hover h3{
+    top: 50%;
+    transform: translateY(35%);
+
+}
+
+.center1{
+    text-align: center;
+    font-weight: bolder;
+    font-size: 60px;
+    font-family: Garamond, 'Times New Roman', Times, serif;
+}
+/*committee end*/
+
+
+/* team card */
+/* .card-body{
+    padding: 0.5rem;
+} */
+
+
+
+/*team members card1*/
+.teamh1{
+    text-align: center;
+    font-family: Garamond, 'Times New Roman', Times, serif;
+    font-weight: bolder;
+    font-size: 60px;
+    color: white;
+
+}
+.card1 {
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+    max-width: 300px;
+    margin: auto;
+    text-align: center;
+    display: block;
+    font-family: Georgia, 'Times New Roman', Times, serif; 
+    background: #ddd;
+}
+
+.card1:hover {
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 1);
+    max-width: 350px;
+    margin: auto;
+    text-align: center;
+    display: block;
+    opacity: 0.8;
+    
+}
+
+.title {
+    color: grey;
+    font-size: 22px;
+    font-weight: bold;
+}
+
+.card1 button {
+    border: none;
+    outline: 0;
+    display: inline-block;
+    padding: 8px;
+    color: white;
+    background-color: #000;
+    text-align: center;
+    cursor: pointer;
+    width: 100%;
+    font-size: 18px;
+}
+
+.card1 button:hover, a:hover {
+    opacity: 0.7;
+}
+
+.teamieee{
+    background: brown;
+    padding: 10%;
+}
+
+.teamieeebutton{
+    width: 30%;
+    height: 40px;
+    background: black;
+    color: white;
+    font-size: 25px;
+
+}
+
+
+/* SIG Section*/
+#sighead{
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-weight: bold;
+    text-align: center;
+   
+}
+.sig {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+    grid-auto-rows: 230px;
+    grid-gap: 1em;
+    }
+
+#sig-box {
+    margin: 5%;
+    margin-top: 0;
+    padding: 1em;
+    border-radius: 4px;
+    box-shadow: 0px 7px 10px 0px #979899;
+    background: lightblue;
+}    
+.upper-section {
+    display: grid;
+    grid-template-columns: 6% 85%;
+    grid-auto-rows: minmax(50px, auto);
+    grid-gap: 1em;
+}
+.descrip {              /*changed here*/
+    font-size: 0.6em;
+    text-align: center;
+    display: none;
+    
+    max-width: 210px;
+    max-height: 150px;
+    padding-left: 12%;
+    padding-top: 0;
+    margin-top: 0%;
+    }
+.titlesig{
+    font-family: Helvetica, Arial, sans-serif;
+    font-size: 25px;
+    position: relative;
+    text-align: center;
+    font-family: 'Shadows Into Light', cursive;
+    color: black;
+    font-size: 36px;
+    font-weight: bold;
+}
+.title-color {
+    background-color: #1c4469;
+    color: #fff;
+    
+    text-align: center;
+    font-weight: 400;
+    font-family: monospace;
+    font-size: 18px;
+}
+    
+.img1 {
+    background-color: #94DEC5;
+}
+.img1:hover{
+    transform: scale(1.5);
+    transition-delay: 50ms;
+    transition-duration: 300ms;
+}
+.img2 {
+    background-color: #B564B3;
+}
+.img2:hover{
+    transform: scale(1.5);
+    transition-delay: 50ms;
+    transition-duration: 300ms;
+}
+.img3 {
+    background-color: #EBAC62;
+}
+.img3:hover{
+    transform: scale(1.5);
+    transition-delay: 50ms;
+    transition-duration: 300ms;
+}
+.img4 {
+    background-color: #DE5364;
+}
+.img4:hover{
+    transform: scale(1.5);
+    transition-delay: 50ms;
+    transition-duration: 300ms;
+}
+.img5 {
+    background-color: #8F82AB;
+}
+.img5:hover{
+    transform: scale(1.5);
+    transition-delay: 50ms;
+    transition-duration: 300ms;
+}
+.img6 {
+    background-color: #F3E595;
+}
+.img6:hover{
+    transform: scale(1.5);
+    transition-delay: 50ms;
+    transition-duration: 300ms;
+}
+.img7 {
+    background-color: #F4F3F4;
+}
+.img7:hover{
+    transform: scale(1.5);
+    transition-delay: 50ms;
+    transition-duration: 300ms;
+}
+.img8 {
+background-color: #85A4BE;
+}
+.img8:hover{
+    transform: scale(1.5);
+    transition-delay: 50ms;
+    transition-duration: 300ms;
+}
+
+
+.img1, .img2, .img3, .img4, .img5, .img6, .img7, .img8{
+    border-radius: 50%;
+    box-shadow: 3px 3px 3px 3px #797979;
+    padding-top: 30%;
+}
+    
+.img1:hover .descrip {
+    display: block;
+    position:absolute;
+}
+    
+.img1:hover .titlesig {
+    display: none;
+    }
+    
+.img2:hover .descrip {
+    display: block;
+    position: absolute;
+}
+    
+.img2:hover .titlesig {
+    display: none;
+}
+    
+.img3:hover .descrip {
+    display: block;
+    position: absolute;
+}
+    
+.img3:hover .titlesig {
+    display: none;
+}
+    
+.img4:hover .descrip {
+    display: block;
+    position: absolute;
+}
+    
+.img4:hover .titlesig {
+    display: none;
+}
+    
+.img5:hover .descrip {
+    display: block;
+    position: absolute;
+}
+    
+.img5:hover .titlesig {
+    display: none;
+}
+    
+.img6:hover .descrip {
+    display: block;
+    position: absolute;
+}
+    
+.img6:hover .titlesig {
+    display: none;
+}
+    
+.img7:hover .descrip {
+    display: block;
+    position: absolute;
+}
+    
+.img7:hover .titlesig {
+    display: none;
+}
+    
+.img8:hover .descrip {
+    display: block;
+    position: absolute;
+}
+    
+.img8:hover .titlesig {
+    display: none;
+}
+    
+
+
+/*Awards and recognition*/
+.awards1{
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    
+    margin: 4%;
+    margin-top: 0;
+    padding: 1em;
+    border-radius: 4px;
+    box-shadow: 0px 7px 10px 0px #979899;
+    background: #B564B3;
+}
+.awards1 li{
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-size: 20px;
+}
+
+
+
+/*kagada card*/
+.kagada{
+   
+    text-align: center;
+    
+
+    margin: 4%;
+    margin-top: 0;
+    padding: 1em;
+    border-radius: 4px;
+    box-shadow: 0px 7px 10px 0px #979899;
+    background: lightblue; 
+}
+.kagada h1{
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-weight: bold;
+}
+.kposter1{
+    padding: 2%;
+}
+.kposter2{
+    padding: 2%;
+}
+.kagada1{
+    display: flex;
+    
+}
+
+
+
+/*Maps section*/        
+.maps1{
+    margin: auto;
+    margin-bottom: 10%;
+    max-width: 600px;
+    max-height: 450px;
+}
+.maps1 h2{
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-size: 50px;
+    font-weight: bold;
+}
+
+
+
